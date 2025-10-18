@@ -17,7 +17,7 @@ app.use(express.json());
 app.use(express.urlencoded({extended:true}));
 app.use(cookieParser());
 const corsOptions = {
-    origin:"https://careernest-job-portal-platform.onrender.com",
+    origin: process.env.FRONTEND_URL,
     credentials:true
 }
 
@@ -42,4 +42,5 @@ app.listen(PORT,()=>{
     console.log(`Server running at port ${PORT}`);
 
 })
+
 
