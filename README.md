@@ -27,3 +27,4 @@ A full-stack job portal platform, the user-friendly job portal connecting job se
 ---
 
 ## Live demo 
+[https://careernest-job-portal-platform.onrender.com](https://careernest-job-portal-platform.onrender.com)
